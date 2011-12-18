@@ -18,7 +18,6 @@ Gem::Specification.new do |s|
   ]
   s.files = [
     "CHANGELOG.md",
-    "Gemfile.lock",
     "LICENSE.txt",
     "README.md",
     "lib/simply_stored.rb",
@@ -54,7 +53,7 @@ Gem::Specification.new do |s|
       s.add_runtime_dependency(%q<uuidtools>, [">= 0"])
       s.add_runtime_dependency(%q<rest-client>, ["= 1.6.1"])
       s.add_runtime_dependency(%q<couchrest>, ["= 1.0.1"])
-      s.add_runtime_dependency(%q<couch_potato>, ["= 0.6.0.1"])
+      s.add_runtime_dependency(%q<couch_potato>, ["= 0.6.0"])
       s.add_runtime_dependency(%q<shoulda>, [">= 0"])
       s.add_runtime_dependency(%q<shoulda-addons>, [">= 0"])
       s.add_runtime_dependency(%q<mocha>, [">= 0"])
@@ -69,7 +68,7 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<uuidtools>, [">= 0"])
       s.add_dependency(%q<rest-client>, ["= 1.6.1"])
       s.add_dependency(%q<couchrest>, ["= 1.0.1"])
-      s.add_dependency(%q<couch_potato>, ["= 0.6.0.1"])
+      s.add_dependency(%q<couch_potato>, ["= 0.6.0"])
       s.add_dependency(%q<shoulda>, [">= 0"])
       s.add_dependency(%q<shoulda-addons>, [">= 0"])
       s.add_dependency(%q<mocha>, [">= 0"])
@@ -85,7 +84,7 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<uuidtools>, [">= 0"])
     s.add_dependency(%q<rest-client>, ["= 1.6.1"])
     s.add_dependency(%q<couchrest>, ["= 1.0.1"])
-    s.add_dependency(%q<couch_potato>, ["= 0.6.0.1"])
+    s.add_dependency(%q<couch_potato>, ["= 0.6.0"])
     s.add_dependency(%q<shoulda>, [">= 0"])
     s.add_dependency(%q<shoulda-addons>, [">= 0"])
     s.add_dependency(%q<mocha>, [">= 0"])
